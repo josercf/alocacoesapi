@@ -35,7 +35,5 @@ namespace JRCF.WebAlocacao.Controllers
             await disciplinas.InsertOneAsync(model);
             return Ok(model);
         }
-
-
     }
 }

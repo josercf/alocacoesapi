@@ -12,6 +12,7 @@ namespace JRCFAlocacao.Domain
         }
 
         public string Key { get; set; }
+        public string CPF { get; set; }
         public string Matricula { get; set; }
         public string Login { get; set; }
         public string Nome { get; set; }
